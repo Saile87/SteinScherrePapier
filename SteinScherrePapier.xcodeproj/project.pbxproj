@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567A56F029C8FD90004C89DC /* SteinScherrePapierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A56EF29C8FD90004C89DC /* SteinScherrePapierApp.swift */; };
+		567A56F229C8FD90004C89DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A56F129C8FD90004C89DC /* ContentView.swift */; };
+		567A56F429C8FD93004C89DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A56F329C8FD93004C89DC /* Assets.xcassets */; };
+		567A56F729C8FD93004C89DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567A56F629C8FD93004C89DC /* Preview Assets.xcassets */; };
+		567A570129C8FD93004C89DC /* SteinScherrePapierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A570029C8FD93004C89DC /* SteinScherrePapierTests.swift */; };
+		567A570B29C8FD93004C89DC /* SteinScherrePapierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A570A29C8FD93004C89DC /* SteinScherrePapierUITests.swift */; };
+		567A570D29C8FD93004C89DC /* SteinScherrePapierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567A570C29C8FD93004C89DC /* SteinScherrePapierUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567A56FD29C8FD93004C89DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567A56E429C8FD90004C89DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567A56EB29C8FD90004C89DC;
+			remoteInfo = SteinScherrePapier;
+		};
+		567A570729C8FD93004C89DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567A56E429C8FD90004C89DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 567A56EB29C8FD90004C89DC;
+			remoteInfo = SteinScherrePapier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567A56EC29C8FD90004C89DC /* SteinScherrePapier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteinScherrePapier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567A56EF29C8FD90004C89DC /* SteinScherrePapierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinScherrePapierApp.swift; sourceTree = "<group>"; };
+		567A56F129C8FD90004C89DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		567A56F329C8FD93004C89DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567A56F629C8FD93004C89DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		567A56FC29C8FD93004C89DC /* SteinScherrePapierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteinScherrePapierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567A570029C8FD93004C89DC /* SteinScherrePapierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinScherrePapierTests.swift; sourceTree = "<group>"; };
+		567A570629C8FD93004C89DC /* SteinScherrePapierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteinScherrePapierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567A570A29C8FD93004C89DC /* SteinScherrePapierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinScherrePapierUITests.swift; sourceTree = "<group>"; };
+		567A570C29C8FD93004C89DC /* SteinScherrePapierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteinScherrePapierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567A56E929C8FD90004C89DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A56F929C8FD93004C89DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A570329C8FD93004C89DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567A56E329C8FD90004C89DC = {
+			isa = PBXGroup;
+			children = (
+				567A56EE29C8FD90004C89DC /* SteinScherrePapier */,
+				567A56FF29C8FD93004C89DC /* SteinScherrePapierTests */,
+				567A570929C8FD93004C89DC /* SteinScherrePapierUITests */,
+				567A56ED29C8FD90004C89DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567A56ED29C8FD90004C89DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567A56EC29C8FD90004C89DC /* SteinScherrePapier.app */,
+				567A56FC29C8FD93004C89DC /* SteinScherrePapierTests.xctest */,
+				567A570629C8FD93004C89DC /* SteinScherrePapierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567A56EE29C8FD90004C89DC /* SteinScherrePapier */ = {
+			isa = PBXGroup;
+			children = (
+				567A56EF29C8FD90004C89DC /* SteinScherrePapierApp.swift */,
+				567A56F129C8FD90004C89DC /* ContentView.swift */,
+				567A56F329C8FD93004C89DC /* Assets.xcassets */,
+				567A56F529C8FD93004C89DC /* Preview Content */,
+			);
+			path = SteinScherrePapier;
+			sourceTree = "<group>";
+		};
+		567A56F529C8FD93004C89DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				567A56F629C8FD93004C89DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		567A56FF29C8FD93004C89DC /* SteinScherrePapierTests */ = {
+			isa = PBXGroup;
+			children = (
+				567A570029C8FD93004C89DC /* SteinScherrePapierTests.swift */,
+			);
+			path = SteinScherrePapierTests;
+			sourceTree = "<group>";
+		};
+		567A570929C8FD93004C89DC /* SteinScherrePapierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				567A570A29C8FD93004C89DC /* SteinScherrePapierUITests.swift */,
+				567A570C29C8FD93004C89DC /* SteinScherrePapierUITestsLaunchTests.swift */,
+			);
+			path = SteinScherrePapierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567A56EB29C8FD90004C89DC /* SteinScherrePapier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567A571029C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapier" */;
+			buildPhases = (
+				567A56E829C8FD90004C89DC /* Sources */,
+				567A56E929C8FD90004C89DC /* Frameworks */,
+				567A56EA29C8FD90004C89DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteinScherrePapier;
+			productName = SteinScherrePapier;
+			productReference = 567A56EC29C8FD90004C89DC /* SteinScherrePapier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		567A56FB29C8FD93004C89DC /* SteinScherrePapierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567A571329C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapierTests" */;
+			buildPhases = (
+				567A56F829C8FD93004C89DC /* Sources */,
+				567A56F929C8FD93004C89DC /* Frameworks */,
+				567A56FA29C8FD93004C89DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567A56FE29C8FD93004C89DC /* PBXTargetDependency */,
+			);
+			name = SteinScherrePapierTests;
+			productName = SteinScherrePapierTests;
+			productReference = 567A56FC29C8FD93004C89DC /* SteinScherrePapierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		567A570529C8FD93004C89DC /* SteinScherrePapierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567A571629C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapierUITests" */;
+			buildPhases = (
+				567A570229C8FD93004C89DC /* Sources */,
+				567A570329C8FD93004C89DC /* Frameworks */,
+				567A570429C8FD93004C89DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567A570829C8FD93004C89DC /* PBXTargetDependency */,
+			);
+			name = SteinScherrePapierUITests;
+			productName = SteinScherrePapierUITests;
+			productReference = 567A570629C8FD93004C89DC /* SteinScherrePapierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567A56E429C8FD90004C89DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					567A56EB29C8FD90004C89DC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					567A56FB29C8FD93004C89DC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 567A56EB29C8FD90004C89DC;
+					};
+					567A570529C8FD93004C89DC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 567A56EB29C8FD90004C89DC;
+					};
+				};
+			};
+			buildConfigurationList = 567A56E729C8FD90004C89DC /* Build configuration list for PBXProject "SteinScherrePapier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567A56E329C8FD90004C89DC;
+			productRefGroup = 567A56ED29C8FD90004C89DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567A56EB29C8FD90004C89DC /* SteinScherrePapier */,
+				567A56FB29C8FD93004C89DC /* SteinScherrePapierTests */,
+				567A570529C8FD93004C89DC /* SteinScherrePapierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567A56EA29C8FD90004C89DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567A56F729C8FD93004C89DC /* Preview Assets.xcassets in Resources */,
+				567A56F429C8FD93004C89DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A56FA29C8FD93004C89DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A570429C8FD93004C89DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567A56E829C8FD90004C89DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567A56F229C8FD90004C89DC /* ContentView.swift in Sources */,
+				567A56F029C8FD90004C89DC /* SteinScherrePapierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A56F829C8FD93004C89DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567A570129C8FD93004C89DC /* SteinScherrePapierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		567A570229C8FD93004C89DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567A570D29C8FD93004C89DC /* SteinScherrePapierUITestsLaunchTests.swift in Sources */,
+				567A570B29C8FD93004C89DC /* SteinScherrePapierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567A56FE29C8FD93004C89DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567A56EB29C8FD90004C89DC /* SteinScherrePapier */;
+			targetProxy = 567A56FD29C8FD93004C89DC /* PBXContainerItemProxy */;
+		};
+		567A570829C8FD93004C89DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 567A56EB29C8FD90004C89DC /* SteinScherrePapier */;
+			targetProxy = 567A570729C8FD93004C89DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		567A570E29C8FD93004C89DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		567A570F29C8FD93004C89DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567A571129C8FD93004C89DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SteinScherrePapier/Preview Content\"";
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		567A571229C8FD93004C89DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SteinScherrePapier/Preview Content\"";
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		567A571429C8FD93004C89DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteinScherrePapier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SteinScherrePapier";
+			};
+			name = Debug;
+		};
+		567A571529C8FD93004C89DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SteinScherrePapier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SteinScherrePapier";
+			};
+			name = Release;
+		};
+		567A571729C8FD93004C89DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteinScherrePapier;
+			};
+			name = Debug;
+		};
+		567A571829C8FD93004C89DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T9PS7UYXRY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = E.B..SteinScherrePapierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SteinScherrePapier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567A56E729C8FD90004C89DC /* Build configuration list for PBXProject "SteinScherrePapier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567A570E29C8FD93004C89DC /* Debug */,
+				567A570F29C8FD93004C89DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567A571029C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567A571129C8FD93004C89DC /* Debug */,
+				567A571229C8FD93004C89DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567A571329C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567A571429C8FD93004C89DC /* Debug */,
+				567A571529C8FD93004C89DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567A571629C8FD93004C89DC /* Build configuration list for PBXNativeTarget "SteinScherrePapierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567A571729C8FD93004C89DC /* Debug */,
+				567A571829C8FD93004C89DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567A56E429C8FD90004C89DC /* Project object */;
+}
