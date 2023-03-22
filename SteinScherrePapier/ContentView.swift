@@ -22,17 +22,26 @@ struct ContentView: View {
                 .init(color: Color(red: 0.2, green: 0.1, blue: 0.2), location: 0.8),
             ], center: .top, startRadius: 200, endRadius: 500)
             .ignoresSafeArea()
-            VStack {
-                
-                Button("👊🏽") {
-                    
+            HStack {
+                ForEach(0..<3) { choice in
+                    Button("\(choice)") {
+                    }
+                    VStack {
+                        ForEach(0..<2) { win in
+                            Button("\(win)") {
+                                
+                            }
+                            .font(.system(size: 200))
+                            .shadow(radius: 9)
+                            .foregroundColor(.white)
+                        }
+                        }
+                    }
                 }
-                .font(.system(size: 200))
-                .shadow(radius: 9)
             }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
