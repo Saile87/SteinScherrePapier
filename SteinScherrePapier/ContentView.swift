@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var deineWahl = ["👊🏽", "✌🏽", "🫲🏽"]
+    @State private var deineWahl = ["👊🏽", "✌🏽", "✋🏽"]
     @State private var deineTextWahl = ["Stein", "Schere", "Papier"]
     @State private var win = ["Win", "Lose"]
     @State private var controlingGameRound = false
@@ -32,10 +32,6 @@ struct ContentView: View {
                 VStack {
                     Text(deineTextWahl[SSP])
                         .foregroundColor(.white)
-                    //self.weißNochNicht = Bool.random()
-                    //self.currentChoice = true
-                    //self.counter += 1
-                    //self.controlingGameRound = true
                 }
                 VStack {
                     Button(loseOrWin ? (win[0]) : (win[1])) {
@@ -44,12 +40,22 @@ struct ContentView: View {
                     .foregroundColor(loseOrWin ? .red : .green)
                     Spacer()
                 }
+                HStack {
+                    Button("👊🏽") {
+                    }
+                    Button("✌🏽") {
+                    }
+                    Button("✋🏽") {
+                    }
                 }
+                .padding()
             }
-            .font(.system(size: 50))
-            .shadow(radius: 4)
+            .padding()
         }
+        .font(.system(size: 50))
+        .shadow(radius: 4)
     }
+}
     
 //    func steinScherePapier() {
 //        deineWahl.shuffle()
