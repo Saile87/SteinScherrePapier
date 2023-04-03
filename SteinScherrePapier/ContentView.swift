@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    let choice = ["👊🏽", "✌🏽", "🫲🏽"].shuffled()
-    let win = ["Win", "Lose"].shuffled()
-    
+    @State private var deineWahl = ["👊🏽", "✌🏽", "🫲🏽"]
+    @State private var deineTextWahl = ["Stein", "Schere", "Papier"]
+    @State private var win = ["Win", "Lose"]
+    @State private var controlingGameRound = false
     @State private var currentChoice = false
-    @State private var loseOrWinv = false
-    @State private var weißNochNicht = Bool.random()
+    @State private var loseOrWin = false
+    @State private var SSP = Int.random(in: 0..<2)
+    @State private var counter = 0
+
     
     var body: some View {
         ZStack {
@@ -23,16 +26,37 @@ struct ContentView: View {
             ], center: .top, startRadius: 200, endRadius: 500)
             .ignoresSafeArea()
             VStack {
-                
-                Button("👊🏽") {
-                    
+                Spacer()
+                Spacer()
+                Text(deineWahl[SSP])
+                VStack {
+                    Text(deineTextWahl[SSP])
+                        .foregroundColor(.white)
+                    //self.weißNochNicht = Bool.random()
+                    //self.currentChoice = true
+                    //self.counter += 1
+                    //self.controlingGameRound = true
                 }
-                .font(.system(size: 200))
-                .shadow(radius: 9)
+                VStack {
+                    Button(loseOrWin ? (win[0]) : (win[1])) {
+                        loseOrWin.toggle()
+                    }
+                    .foregroundColor(loseOrWin ? .red : .green)
+                    Spacer()
+                }
+                }
             }
+            .font(.system(size: 50))
+            .shadow(radius: 4)
         }
     }
-}
+    
+//    func steinScherePapier() {
+//        deineWahl.shuffle()
+//        weißNochNicht = Bool.random()
+//    }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
