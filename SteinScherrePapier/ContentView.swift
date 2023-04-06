@@ -16,7 +16,7 @@ struct ContentView: View {
     @State private var loseOrWin = false
     @State private var SSP = Int.random(in: 0..<2)
     @State private var counter = 0
-
+    @State private var scoreTitle = ""
     
     var body: some View {
         ZStack {
@@ -42,6 +42,11 @@ struct ContentView: View {
                 }
                 HStack {
                     Button("👊🏽") {
+                        self.counter += 1
+                        if self.counter >= 8 {
+                            self.controlingGameRound = true
+                        }
+                    
                     }
                     Button("✌🏽") {
                     }
@@ -54,15 +59,27 @@ struct ContentView: View {
         }
         .font(.system(size: 50))
         .shadow(radius: 4)
+        
+        .alert(scoreTitle, isPresented: $controlingGameRound) {
+            Button("Continue", action: newRound)
+        } message: {
+            Text("Your Score is: \(counter)")
+            
+        }
+    }
+    func buttonTapped(_ number: Int) {
+        if number == SSP {
+            scoreTitle = "Correct"
+        } else if number != SSP {
+            scoreTitle = ("Wrong that's flag of:")
+        }
+        loseOrWin = true
+    }
+    func newRound() {
+        deineWahl.shuffle()
+        SSP = Int.random(in: 0...2)
     }
 }
-    
-//    func steinScherePapier() {
-//        deineWahl.shuffle()
-//        weißNochNicht = Bool.random()
-//    }
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
