@@ -97,7 +97,7 @@ struct ContentView: View {
     }
 
     func Game() {
-        if deineWahl == ["✋🏽"] {
+        if deineWahl && randomSSP == [Any] {
            
                 score += 1
             } else {
