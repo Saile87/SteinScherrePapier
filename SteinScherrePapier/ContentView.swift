@@ -47,7 +47,7 @@ struct ContentView: View {
                 }
                 HStack {
                     Button("👊🏽") {
-                        Game()
+                        
                         loseOrWin.toggle()
                         newRound()
                         self.counter += 1
@@ -59,7 +59,7 @@ struct ContentView: View {
                         
                     }
                     Button("✌🏽") {
-                        Game()
+                        
                         loseOrWin.toggle()
                         newRound()
                         self.counter += 1
@@ -70,7 +70,7 @@ struct ContentView: View {
                         }
                     }
                     Button("✋🏽") {
-                        Game()
+                        
                         loseOrWin.toggle()
                         newRound()
                         self.counter += 1
@@ -95,16 +95,7 @@ struct ContentView: View {
             
         }
     }
-
-    func Game() {
-        if deineWahl && randomSSP == [Any] {
-           
-                score += 1
-            } else {
-                score -= 1
-            }
-        
-    }
+    
     func newRound() {
         randomSSP = Int.random(in: 0...2)
     }
